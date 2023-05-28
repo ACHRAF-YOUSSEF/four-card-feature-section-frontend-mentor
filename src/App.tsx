@@ -125,7 +125,7 @@ function App() {
               flex-col
               items-center
               justify-center
-              sm:space-x-4
+              sm:space-x-10
               sm:space-y-0
               space-y-4
             '>
@@ -139,6 +139,7 @@ function App() {
                 flex-col
                 items-center
                 justify-center
+                sm:space-y-10
                 space-y-4
               '>
               {/* card-2 */}
