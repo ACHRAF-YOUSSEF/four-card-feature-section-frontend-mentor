@@ -90,12 +90,14 @@ Error generating stack: `+o.message+`
           justify-center
           items-start
           text-${e.color}
-          text-${e.text_size}
+          sm:text-3xl
+          text-2xl
           font-extralight
         `,children:[e.text,R.jsx("span",{className:`
             font-semibold 
             text-${n.color}
-            text-${n.text_size}
+            sm:text-3xl
+            text-2xl
           `,children:n.text})]}),R.jsx("div",{className:`
           text-${t.color}
           text-${t.text_size}
@@ -109,22 +111,19 @@ Error generating stack: `+o.message+`
           text-xl\r
           text-2xl\r
           text-3xl\r
-        `})]}),Dd="/four-card-feature-section-frontend-mentor/assets/icon-supervisor-0082640e.svg",Md="/four-card-feature-section-frontend-mentor/assets/icon-team-builder-152fa918.svg",Fd="/four-card-feature-section-frontend-mentor/assets/icon-karma-4e7a46c1.svg",Id="/four-card-feature-section-frontend-mentor/assets/icon-calculator-e94e9a8b.svg";function Ud(){const e={title:{text:"Supervisor",color:"Very-Dark-Blue",text_size:"lg"},subtitle:{text:"Monitors activity to identify project roadblocks",color:"Grayish-Blue",text_size:"sm"},background_color:"White",top_bar_color:"Cyan",image:Dd},n={title:{text:"Team Builder",color:"Very-Dark-Blue",text_size:"lg"},subtitle:{text:"Scans our talent network to create the optimal team for your project",color:"Grayish-Blue",text_size:"sm"},background_color:"White",top_bar_color:"Red",image:Md},t={title:{text:"Karma",color:"Very-Dark-Blue",text_size:"lg"},subtitle:{text:"Regularly evaluates our talent to ensure quality",color:"Grayish-Blue",text_size:"sm"},background_color:"Wgite",top_bar_color:"Orange",image:Fd},r={title:{text:"Calculator",color:"Very-Dark-Blue",text_size:"lg"},subtitle:{text:"Uses data from past projects to provide better delivery estimates",color:"Grayish-Blue",text_size:"sm"},background_color:"White",top_bar_color:"Blue",image:Id},l={title:{text:"Reliable, efficient delivery",color:"Very-Dark-Blue",text_size:"2xl"},subtitle:{text:"Powered by Technology",color:"Very-Dark-Blue",text_size:"2xl"},description:{text:"Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful",color:"Grayish-Blue",text_size:"sm"}};return R.jsx(R.Fragment,{children:R.jsx("div",{className:`
+        `})]}),Dd="/four-card-feature-section-frontend-mentor/assets/icon-supervisor-0082640e.svg",Md="/four-card-feature-section-frontend-mentor/assets/icon-team-builder-152fa918.svg",Fd="/four-card-feature-section-frontend-mentor/assets/icon-karma-4e7a46c1.svg",Id="/four-card-feature-section-frontend-mentor/assets/icon-calculator-e94e9a8b.svg";function Ud(){const e={title:{text:"Supervisor",color:"Very-Dark-Blue",text_size:"lg"},subtitle:{text:"Monitors activity to identify project roadblocks",color:"Grayish-Blue",text_size:"sm"},background_color:"White",top_bar_color:"Cyan",image:Dd},n={title:{text:"Team Builder",color:"Very-Dark-Blue",text_size:"lg"},subtitle:{text:"Scans our talent network to create the optimal team for your project",color:"Grayish-Blue",text_size:"sm"},background_color:"White",top_bar_color:"Red",image:Md},t={title:{text:"Karma",color:"Very-Dark-Blue",text_size:"lg"},subtitle:{text:"Regularly evaluates our talent to ensure quality",color:"Grayish-Blue",text_size:"sm"},background_color:"Wgite",top_bar_color:"Orange",image:Fd},r={title:{text:"Calculator",color:"Very-Dark-Blue",text_size:"lg"},subtitle:{text:"Uses data from past projects to provide better delivery estimates",color:"Grayish-Blue",text_size:"sm"},background_color:"White",top_bar_color:"Blue",image:Id},l={title:{text:"Reliable, efficient delivery",color:"Very-Dark-Blue"},subtitle:{text:"Powered by Technology",color:"Very-Dark-Blue"},description:{text:"Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful",color:"Grayish-Blue",text_size:"sm"}};return R.jsx(R.Fragment,{children:R.jsx("main",{children:R.jsx("div",{className:`
           flex
           flex-col
           items-center
           justify-center
           sm:h-screen
-          h-fit
-          w-full
-          sm:m-8
-          my-8
+          sm:m-0
+          mt-8
         `,children:R.jsxs("div",{className:`
             flex
             flex-col
             items-center
             justify-center
-            sm:space-y-8
             space-y-12
             m-auto
           `,children:[R.jsx(Od,{...l}),R.jsxs("div",{className:`
@@ -143,4 +142,4 @@ Error generating stack: `+o.message+`
                 justify-center
                 sm:space-y-10
                 space-y-4
-              `,children:[R.jsx("div",{children:R.jsx(yr,{...n})}),R.jsx("div",{children:R.jsx(yr,{...t})})]}),R.jsx("div",{children:R.jsx(yr,{...r})})]}),R.jsx(jd,{})]})})})}Ql.createRoot(document.getElementById("root")).render(R.jsx(kc.StrictMode,{children:R.jsx(Ud,{})}));
+              `,children:[R.jsx("div",{children:R.jsx(yr,{...n})}),R.jsx("div",{children:R.jsx(yr,{...t})})]}),R.jsx("div",{children:R.jsx(yr,{...r})})]}),R.jsx(jd,{})]})})})})}Ql.createRoot(document.getElementById("root")).render(R.jsx(kc.StrictMode,{children:R.jsx(Ud,{})}));
