@@ -2,12 +2,10 @@ interface HeaderProps {
   title: {
     text: string;
     color: string;
-    text_size: string;
   };
   subtitle: {
     text: string;
     color: string;
-    text_size: string;
   };
   description: {
     text: string;
@@ -39,7 +37,8 @@ const Header: React.FC<HeaderProps> = ({
           justify-center
           items-start
           text-${title.color}
-          text-${title.text_size}
+          sm:text-3xl
+          text-2xl
           font-extralight
         `}>
         {title.text}
@@ -47,7 +46,8 @@ const Header: React.FC<HeaderProps> = ({
           className={`
             font-semibold 
             text-${subtitle.color}
-            text-${subtitle.text_size}
+            sm:text-3xl
+            text-2xl
           `}>
           {subtitle.text}
         </span>

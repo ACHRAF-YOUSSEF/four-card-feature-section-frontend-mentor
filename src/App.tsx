@@ -77,12 +77,10 @@ function App() {
     title: {
       text: 'Reliable, efficient delivery',
       color: 'Very-Dark-Blue',
-      text_size: '2xl',
     },
     subtitle: {
       text: 'Powered by Technology',
       color: 'Very-Dark-Blue',
-      text_size: '2xl',
     },
     description: {
       text: 'Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful',
@@ -93,33 +91,31 @@ function App() {
 
   return (
     <>
-      <div
-        className='
+      <main>
+        <div
+          className='
           flex
           flex-col
           items-center
           justify-center
           sm:h-screen
-          h-fit
-          w-full
-          sm:m-8
-          my-8
+          sm:m-0
+          mt-8
         '>
-        {/* main container */}
-        <div
-          className="
+          {/* main container */}
+          <div
+            className="
             flex
             flex-col
             items-center
             justify-center
-            sm:space-y-8
             space-y-12
             m-auto
           ">
-          <Header {...header_content} />
-          {/* cards */}
-          <div
-            className='
+            <Header {...header_content} />
+            {/* cards */}
+            <div
+              className='
               flex
               sm:flex-row
               flex-col
@@ -129,12 +125,12 @@ function App() {
               sm:space-y-0
               space-y-4
             '>
-            {/* card-1 */}
-            <div>
-              <Card {...card1_content} />
-            </div>
-            <div
-              className='
+              {/* card-1 */}
+              <div>
+                <Card {...card1_content} />
+              </div>
+              <div
+                className='
                 flex
                 flex-col
                 items-center
@@ -142,24 +138,25 @@ function App() {
                 sm:space-y-10
                 space-y-4
               '>
-              {/* card-2 */}
-              <div>
-                <Card {...card2_content} />
+                {/* card-2 */}
+                <div>
+                  <Card {...card2_content} />
+                </div>
+                {/* card-3 */}
+                <div>
+                  <Card {...card3_content} />
+                </div>
               </div>
-              {/* card-3 */}
+              {/* card-4 */}
               <div>
-                <Card {...card3_content} />
+                <Card {...card4_content} />
               </div>
             </div>
-            {/* card-4 */}
-            <div>
-              <Card {...card4_content} />
-            </div>
+            {/* footer */}
+            <Footer />
           </div>
-          {/* footer */}
-          <Footer />
         </div>
-      </div>
+      </main>
     </>
   )
 }
