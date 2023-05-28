@@ -133,7 +133,7 @@ Error generating stack: `+o.message+`
               flex-col
               items-center
               justify-center
-              sm:space-x-4
+              sm:space-x-10
               sm:space-y-0
               space-y-4
             `,children:[R.jsx("div",{children:R.jsx(yr,{...e})}),R.jsxs("div",{className:`
@@ -141,5 +141,6 @@ Error generating stack: `+o.message+`
                 flex-col
                 items-center
                 justify-center
+                sm:space-y-10
                 space-y-4
               `,children:[R.jsx("div",{children:R.jsx(yr,{...n})}),R.jsx("div",{children:R.jsx(yr,{...t})})]}),R.jsx("div",{children:R.jsx(yr,{...r})})]}),R.jsx(jd,{})]})})})}Ql.createRoot(document.getElementById("root")).render(R.jsx(kc.StrictMode,{children:R.jsx(Ud,{})}));
